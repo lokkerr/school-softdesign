@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
     <color name="color_primary">#3F51B5</color>
     <color name="color_primary_dark">#303F9F</color>
     <color name="color_accent">#FF4081</color>
@@ -16,5 +20,16 @@
     <color name="color_blue_primary_dark">#303F9F</color>
     <color name="color_blue_accent">#FF4081</color>
 
+<<<<<<< HEAD
+    <color name="color_icon">#FFFFFF</color>
+
+    <color name="color_green">#18501b</color>
+=======
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+>>>>>>> master
+=======
     <color name="icon_color">#FFFFFF</color>
+>>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
 </resources>
