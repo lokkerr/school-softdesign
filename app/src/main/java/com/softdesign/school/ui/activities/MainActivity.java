@@ -1,5 +1,6 @@
 package com.softdesign.school.ui.activities;
 
+<<<<<<< HEAD
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
@@ -27,10 +28,20 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private NavigationView mNavigationView;
 
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.softdesign.school.R;
+
+public class MainActivity extends AppCompatActivity {
+
+>>>>>>> master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         setTitle("School lesson 3");
         if (null == savedInstanceState) {
             getSupportFragmentManager().beginTransaction().replace(R.id.main_frame_container, new ProfileFragment()).commit();
@@ -95,5 +106,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void setMenuCheck(int itemId) {
         mNavigationView.getMenu().findItem(itemId).setChecked(true);
+=======
+>>>>>>> master
     }
 }
