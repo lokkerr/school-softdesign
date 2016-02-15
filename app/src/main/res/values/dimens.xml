@@ -3,6 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <dimen name="toolbar_elevation">16dp</dimen>
 
     <dimen name="nav_header_height">160dp</dimen>
@@ -21,4 +22,7 @@
     <dimen name="text_size_user_fullname">14sp</dimen>
 =======
 >>>>>>> master
+=======
+    <dimen name="toolbar_elevation">16dp</dimen>
+>>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
 </resources>

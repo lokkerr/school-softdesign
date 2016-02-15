@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 package com.softdesign.school.utils;
 
 import android.util.Log;
+=======
+package com.softdesign.school_softdesign.utils;
+
+import android.util.Log;
+import com.softdesign.school_softdesign.BuildConfig;
+>>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
 
 /**
  *  Класс для вывода сообщений в лог.
@@ -21,7 +28,11 @@ public class Lg {
      */
     private static boolean shouldLog() {
         //return BuildConfig.IS_LOGCAT_LOGGER_ENABLED;
+<<<<<<< HEAD
         return true;
+=======
+        return BuildConfig.DEBUG;
+>>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
     }
 
     /**

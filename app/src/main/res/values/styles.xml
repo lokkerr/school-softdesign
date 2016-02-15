@@ -1,5 +1,8 @@
 <resources>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
@@ -7,15 +10,36 @@
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+<<<<<<< HEAD
+=======
 =======
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="AppRedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_red_primary</item>
+        <item name="colorPrimaryDark">@color/color_red_primary_dark</item>
+        <item name="colorAccent">@color/color_red_accent</item>
     </style>
+    <style name="AppRedTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppRedTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+>>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
 
+    <style name="AppGreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_green_primary</item>
+        <item name="colorPrimaryDark">@color/color_green_primary_dark</item>
+        <item name="colorAccent">@color/color_green_accent</item>
+    </style>
+    <style name="AppGreenTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppGreenTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+<<<<<<< HEAD
 >>>>>>> master
+=======
+    <style name="AppBlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_blue_primary</item>
+        <item name="colorPrimaryDark">@color/color_blue_primary_dark</item>
+        <item name="colorAccent">@color/color_blue_accent</item>
+    </style>
+    <style name="AppBlueTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppBlueTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+>>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
 </resources>
