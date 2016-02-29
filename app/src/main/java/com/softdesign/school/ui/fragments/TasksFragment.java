@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import com.softdesign.school.R;
 import com.softdesign.school.ui.activities.MainActivity;
 
-<<<<<<< HEAD
 public class TasksFragment extends Fragment {
     @Nullable
     @Override
@@ -19,20 +18,5 @@ public class TasksFragment extends Fragment {
         getActivity().setTitle(getResources().getString(R.string.drawer_tasks));
         ((MainActivity) getActivity()).lockAppBar(true);
         return temp;
-=======
-
-public class TasksFragment extends Fragment {
-
-    private MainActivity mActivity;
-
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_tasks, null, false);
-        mActivity = (MainActivity) getActivity();
-        mActivity.setTitle("Задачи");
-        mActivity.setMenuCheck(R.id.navigation_tasks);
-        return view;
->>>>>>> master
     }
 }

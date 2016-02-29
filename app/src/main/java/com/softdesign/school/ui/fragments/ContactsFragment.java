@@ -2,22 +2,17 @@ package com.softdesign.school.ui.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-<<<<<<< HEAD
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
-=======
-import android.support.v4.app.Fragment;
->>>>>>> master
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.softdesign.school.R;
-<<<<<<< HEAD
 import com.softdesign.school.data.storage.models.User;
 import com.softdesign.school.ui.activities.MainActivity;
 import com.softdesign.school.ui.adapters.UsersAdapter;
@@ -38,19 +33,10 @@ public class ContactsFragment extends Fragment {
         super();
         mUsers = new ArrayList<>();
     }
-=======
-import com.softdesign.school.ui.activities.MainActivity;
-
-
-public class ContactsFragment extends Fragment {
-
-    private MainActivity mActivity;
->>>>>>> master
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-<<<<<<< HEAD
         View temp = inflater.inflate(R.layout.fragment_contacts, null, false);
         return temp;
     }
@@ -97,12 +83,5 @@ public class ContactsFragment extends Fragment {
         actionButton.show();
 
         activity.lockAppBar(true);
-=======
-        View view = inflater.inflate(R.layout.fragment_contacts, null, false);
-        mActivity = (MainActivity) getActivity();
-        mActivity.setTitle("Контакты");
-        mActivity.setMenuCheck(R.id.navigation_contacts);
-        return view;
->>>>>>> master
     }
 }
