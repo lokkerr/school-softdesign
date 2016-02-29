@@ -11,6 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
     }
+<<<<<<< HEAD
 
     buildTypes {
         debug {
@@ -20,11 +21,18 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField 'boolean', 'IS_LOGCAT_LOGGER_ENABLED', 'false'
+=======
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+>>>>>>> master
         }
     }
 }
 
 dependencies {
+<<<<<<< HEAD
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
@@ -32,4 +40,10 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:2.0.0'
     compile 'com.android.support:cardview-v7:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
+=======
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+>>>>>>> master
 }

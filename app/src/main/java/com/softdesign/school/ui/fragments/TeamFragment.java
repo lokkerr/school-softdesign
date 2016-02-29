@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import com.softdesign.school.R;
 import com.softdesign.school.ui.activities.MainActivity;
 
+<<<<<<< HEAD
 public class TeamFragment extends Fragment {
     @Nullable
     @Override
@@ -18,5 +19,20 @@ public class TeamFragment extends Fragment {
         getActivity().setTitle(getResources().getString(R.string.drawer_team));
         ((MainActivity) getActivity()).lockAppBar(true);
         return temp;
+=======
+
+public class TeamFragment extends Fragment {
+
+    private MainActivity mActivity;
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_team, null, false);
+        mActivity = (MainActivity) getActivity();
+        mActivity.setTitle("Команда");
+        mActivity.setMenuCheck(R.id.navigation_team);
+        return view;
+>>>>>>> master
     }
 }
