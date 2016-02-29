@@ -2,27 +2,39 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <dimen name="toolbar_elevation">16dp</dimen>
 
-    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_top">0dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toolbar_elevation">16dp</dimen>
+    <dimen name="nav_header_height">158dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_avatar_size">72dp</dimen>
+    <dimen name="nav_header_info_height">56dp</dimen>
+
+    <!-- Spaces -->
     <dimen name="spacing_small">8dp</dimen>
     <dimen name="spacing_normal">16dp</dimen>
-    <dimen name="spacing_large">72dp</dimen>
-    <dimen name="border_circle_image">2dp</dimen>
+    <dimen name="spacing_medial">24dp</dimen>
+    <dimen name="spacing_medium">32dp</dimen>
+    <dimen name="spacing_large">56dp</dimen>
+    <dimen name="spacing_larger">72dp</dimen>
 
-    <dimen name="width_navigation_user_avatar">78dp</dimen>
-    <dimen name="height_navigation_user_avatar">78dp</dimen>
+    <dimen name="toolbar_collapsing_image">256dp</dimen>
+    <dimen name="toolbar_rating_size">24sp</dimen>
 
-    <dimen name="width_navigation_user_rating">56dp</dimen>
-    <dimen name="height_navigation_user_rating">56dp</dimen>
+    <!-- Height -->
+    <dimen name="list_item">72dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
 
-    <dimen name="text_size_user_email">14sp</dimen>
-    <dimen name="text_size_user_fullname">14sp</dimen>
-=======
->>>>>>> master
-=======
-    <dimen name="toolbar_elevation">16dp</dimen>
->>>>>>> 4a2a4a2a849f4771ede8027f34811bdd87c21b97
+    <!-- Touch -->
+    <dimen name="touch_size">44dp</dimen>
+
+    <!-- font sizes -->
+    <dimen name="font_larger">20sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="user_list_item_height">72dp</dimen>
+    <dimen name="user_icon_size">40dp</dimen>
+
 </resources>
